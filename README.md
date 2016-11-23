@@ -1,12 +1,4 @@
 # MacOS-BluetoothAudioAgent-config
 MacOS config for Bluetooth Headphones
 
-###################SOUND QUALITY 4 DAYS#########################
-################################################################
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" 80
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 80
-defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" 80
-defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool Min (editable)" 80
-defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool" 80
-defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Max" 80
-defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Min" 80
+What I'm doing is basically changing every setting to 80 (higher quality than default) and making it stay at that setting. If you set min and max as two different numbers, the system tries to adjust the bit rate while audio is playing, causing it to click and pop.

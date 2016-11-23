@@ -1,4 +1,4 @@
-#################### HEADPHONE SOUNDQUALITY MACOS GOES LIT############################
+#################### BLUETOOTH HEADPHONE SOUNDQUALITY MACOS GOES LIT##################
 ######################################################################################
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" 80
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 80
